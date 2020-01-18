@@ -8,7 +8,7 @@ public class TestOsoba {
     public static void main(String[] args) {
 
 
-        try (BufferedReader plik = new BufferedReader(new FileReader("./src/DaneOsobowe.txt.txt"))) {
+        try (BufferedReader plik = new BufferedReader(new FileReader("./src/DaneOsobowe.txt"))) {
             Scanner scan = new Scanner(plik);
             ArrayList<Osoba> lista = new ArrayList<Osoba>();
             while (plik.ready()) {
